@@ -1,58 +1,248 @@
-<!-- ONLY showing changed sections for clarity -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidyasagar Karuturi - GenAI Engineer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+<header class="main-header">
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<!-- HOME -->
+<section id="home" class="section hero-section">
+    <div class="hero-content">
+        <img src="vidya_pic.jpeg" alt="Vidyasagar Karuturi" class="profile-pic">
+        <h1 class="fade-in">Vidyasagar Karuturi</h1>
+        <p class="tagline fade-in">GenAI Engineer & Data Scientist | Crafting Intelligent Solutions</p>
+
+        <div class="contact-info fade-in">
+            <a href="tel:+916309807183"><i class="fas fa-phone"></i> 6309807183</a>
+            <a href="mailto:karuturividyasagar@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://www.linkedin.com/in/vidyasagar-karuturi-8b6441191/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://medium.com/@karuturividyasagar" target="_blank"><i class="fab fa-medium"></i></a>
+            <a href="https://github.com/Vidyasagar786" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+</section>
 
 <!-- SUMMARY -->
-<p class="section-text">
-3+ years experienced GenAI Engineer and Data Scientist with a proven track record in designing, developing, and deploying end-to-end AI/ML solutions at scale. Deep expertise in Large Language Models, skilled in model training, fine-tuning, and evaluation. Proficient in TensorFlow and PyTorch with strong MLOps practices. Demonstrated success in building scalable ML pipelines, deploying production-grade AI systems, and leveraging AWS for real-time AI applications.
-</p>
+<section id="summary" class="section summary-section">
+    <div class="section-content">
+        <h2 class="section-title">Professional Summary</h2>
+        <p class="section-text">
+            3+ years experienced GenAI Engineer and Data Scientist with a proven track record in designing, developing, and deploying end-to-end AI/ML solutions at scale. Deep expertise in Large Language Models, skilled in model training, fine-tuning, and evaluation. Proficient in TensorFlow and PyTorch with strong MLOps practices. Demonstrated success in building scalable ML pipelines, deploying production-grade AI systems, and leveraging AWS for real-time AI applications.
+        </p>
+    </div>
+</section>
 
-<!-- SKILLS (ADDITIONS ONLY) -->
-<li>Deep Learning (CNNs, LSTM, GRU)</li>
+<!-- SKILLS -->
+<section id="skills" class="section skills-section">
+    <div class="section-content">
+        <h2 class="section-title">Core Technical Skills</h2>
+        <div class="skills-grid">
 
-<!-- Tools section ADD -->
-<li>Grafana, Jira, Azure DevOps (ADO), Confluence</li>
+            <div class="skill-category">
+                <h3>Programming</h3>
+                <ul>
+                    <li>Python (NumPy, Pandas, Scikit-learn, Keras)</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
 
-<!-- EXPERIENCE SECTION -->
+            <div class="skill-category">
+                <h3>Databases</h3>
+                <ul>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
 
-<!-- NEW ROLE -->
-<div class="job-entry">
-    <h3>Machine Learning Engineer <span class="company">Standard Chartered Bank, Chennai</span></h3>
-    <p class="duration">Nov 2025 – Present</p>
-    <ul>
-        <li>Designed and automated a document classification and extraction pipeline for highly unstructured, multi-region documents using Tesseract OCR and rule-based methods to identify valid clauses for regulatory compliance.</li>
-        <li>Implemented YOLO-based signature detection to improve verification accuracy across diverse document formats.</li>
-        <li>Built an end-to-end Cash Document Verification (CDV) pipeline using POP (Proof of Payment) codes to map transaction types with required supporting documents; performed document classification, entity extraction, and validation to ensure transaction legitimacy across multiple countries using LLMs.</li>
-    </ul>
-</div>
+            <div class="skill-category">
+                <h3>Machine Learning</h3>
+                <ul>
+                    <li>Supervised & Unsupervised Learning</li>
+                    <li>Model Optimization & Evaluation</li>
+                    <li>Pre/Post Processing</li>
+                </ul>
+            </div>
 
-<!-- UPDATED INTELLECT ROLE -->
-<div class="job-entry">
-    <h3>Associate Consultant → Data Scientist Consultant <span class="company">Intellect Design Arena Pvt. Ltd., Chennai</span></h3>
-    <p class="duration">Jun 2023 – Present</p>
-    <ul>
-        <li>Architected and developed Purple Fabric, a scalable AI-native SaaS platform for intelligent search and automated workflows.</li>
-        <li>Designed and deployed scalable Deep Learning solutions for NLP and Generative AI applications.</li>
-        <li>Built LLM-based AI Guardrails for Prompt Injection Detection, PII masking, and Toxic Content Filtering using Meta LLaMA 2, GPT-4o, SETFIT, and AWS Comprehend.</li>
-        <li>Engineered citation backfilling to improve transparency and factual accuracy in LLM responses.</li>
-        <li>Developed document classification and extraction models using LayoutLM, improving efficiency by 75%.</li>
-        <li>Designed LLM benchmarking tools using LLM-as-a-Judge, ROUGE-L, fuzzy JSON, and exact match scoring.</li>
-        <li>Reduced system error rates from 6% to under 1% by automating monitoring and reporting workflows.</li>
-        <li>Built an AI-native support assistant to accelerate issue resolution and improve client experience.</li>
-    </ul>
-</div>
+            <div class="skill-category">
+                <h3>Deep Learning</h3>
+                <ul>
+                    <li>PyTorch, TensorFlow</li>
+                    <li>CNNs, LSTM, GRU</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>GenAI / NLP</h3>
+                <ul>
+                    <li>RAG, ReAct, Prompt Engineering</li>
+                    <li>NER, Summarization, Text Generation</li>
+                    <li>LangChain, LlamaIndex</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>LLMs</h3>
+                <ul>
+                    <li>LLaMA 2, GPT-4, Claude, Gemma</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <ul>
+                    <li>FastAPI, Flask</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Cloud & DevOps</h3>
+                <ul>
+                    <li>AWS (EC2, S3, Lambda, RDS, SageMaker)</li>
+                    <li>Docker, Kubernetes, Terraform</li>
+                    <li>Jenkins, Git</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <ul>
+                    <li>VS Code, Jupyter, Tableau</li>
+                    <li>MLflow, Kibana, Langfuse</li>
+                    <li>Grafana, Jira, Azure DevOps</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section experience-section">
+    <div class="section-content">
+        <h2 class="section-title">Professional Experience</h2>
+
+        <div class="job-entry">
+            <h3>Machine Learning Engineer <span class="company">Standard Chartered Bank, Chennai</span></h3>
+            <p class="duration">Nov 2025 – Present</p>
+            <ul>
+                <li>Designed document classification and extraction pipelines using OCR.</li>
+                <li>Implemented YOLO-based signature detection.</li>
+                <li>Built CDV pipeline using POP codes for transaction validation and entity extraction.</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <h3>Associate Consultant → Data Scientist Consultant <span class="company">Intellect Design Arena, Chennai</span></h3>
+            <p class="duration">Jun 2023 – Present</p>
+            <ul>
+                <li>Developed AI-native SaaS platform (Purple Fabric).</li>
+                <li>Built LLM guardrails for PII, prompt injection, and toxicity.</li>
+                <li>Created LayoutLM-based document intelligence system.</li>
+                <li>Reduced system errors from 6% to &lt;1%.</li>
+                <li>Designed LLM evaluation frameworks.</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <h3>Cloud Intern <span class="company">LTI Mindtree</span></h3>
+            <p class="duration">Feb 2023 – Apr 2023</p>
+            <ul>
+                <li>Automated AWS infrastructure using Terraform.</li>
+                <li>Implemented cost optimization and security improvements.</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section education-section">
+    <div class="section-content">
+        <h2 class="section-title">Education</h2>
+
+        <div class="edu-entry">
+            <h3>B.Tech - Computer Science (Data Analytics)</h3>
+            <p>VIT Amaravati | CGPA: 8.05</p>
+        </div>
+
+        <div class="edu-entry">
+            <h3>Intermediate</h3>
+            <p>Narayana Junior College | CGPA: 9.5</p>
+        </div>
+
+        <div class="edu-entry">
+            <h3>Secondary Education</h3>
+            <p>St. Claret School | CGPA: 9.7</p>
+        </div>
+
+    </div>
+</section>
 
 <!-- PROJECTS -->
+<section id="projects" class="section projects-section">
+    <div class="section-content">
+        <h2 class="section-title">Projects</h2>
 
-<div class="project-entry">
-    <h3>Agentic Data Visualizer</h3>
-    <p>
-        Built an AI-powered data visualization assistant that converts natural language queries into SQL and dynamic Plotly charts. Achieved 90%+ accuracy in query-to-SQL translation and reduced manual analysis time by 70%. Implemented sandboxed execution for safe handling of LLM-generated Python code.
-    </p>
-</div>
+        <div class="project-entry">
+            <h3>Agentic Data Visualizer</h3>
+            <p>AI system converting natural language queries into SQL and dynamic visualizations with 90%+ accuracy.</p>
+        </div>
 
-<!-- UPDATE EXISTING PROJECT -->
-<div class="project-entry">
-    <h3>Automated Document Intelligence</h3>
-    <p>
-        Created a document classification and extraction system using LayoutLM for emails and financial documents, achieving up to 75% efficiency improvement on unstructured data.
-    </p>
-</div>
+        <div class="project-entry">
+            <h3>AI Guardrails System</h3>
+            <p>Built safety systems for PII masking, prompt injection detection, and content filtering.</p>
+        </div>
+
+        <div class="project-entry">
+            <h3>Document Intelligence</h3>
+            <p>LayoutLM-based classification system improving efficiency by 75%.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact-section">
+    <div class="section-content">
+        <h2 class="section-title">Contact</h2>
+        <a href="mailto:karuturividyasagar@gmail.com" class="btn">
+            <i class="fas fa-envelope"></i> Send Email
+        </a>
+    </div>
+</section>
+
+</main>
+
+<footer class="main-footer">
+    <p>&copy; 2026 Vidyasagar Karuturi. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
